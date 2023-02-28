@@ -6,7 +6,7 @@
       "contentHash": "fcd24f105d9279227d2a5de484703d3a",
       "sourceName": "contracts/Box.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -19,12 +19,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -43,7 +50,7 @@
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -56,12 +63,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -80,7 +94,7 @@
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -93,12 +107,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -115,7 +136,7 @@
       "contentHash": "834a0dde221759af42b030253315b086",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -128,12 +149,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -154,7 +182,7 @@
       "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -167,12 +195,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -189,7 +224,7 @@
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -202,12 +237,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -226,7 +268,7 @@
       "contentHash": "5b369683bd5582ac703b4177a94d87d2",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -239,12 +281,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -267,7 +316,7 @@
       "contentHash": "fe1190dbb6431c2464246925713f0f7f",
       "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -280,12 +329,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -304,7 +360,7 @@
       "contentHash": "7c33eaa0f6dc029429ed8b986694c3a4",
       "sourceName": "@openzeppelin/contracts/utils/cryptography/EIP712.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -317,12 +373,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -341,7 +404,7 @@
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -354,12 +417,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -376,7 +446,7 @@
       "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -389,12 +459,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -411,7 +488,7 @@
       "contentHash": "396031251978f8febfd90cb62cb240ec",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -424,12 +501,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -448,7 +532,7 @@
       "contentHash": "b9c58920ce74d6dc819161786112e7ee",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -461,12 +545,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -483,7 +574,7 @@
       "contentHash": "6be139164eb45326092f58c45823abd0",
       "sourceName": "@openzeppelin/contracts/utils/Checkpoints.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -496,12 +587,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -521,7 +619,7 @@
       "contentHash": "67cf2dfe1d1c22b4ea7f242e8a17f431",
       "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -534,12 +632,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -556,7 +661,7 @@
       "contentHash": "1252685551a5afdb6005499e0f549eff",
       "sourceName": "@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -569,12 +674,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -593,7 +705,7 @@
       "contentHash": "bbb046a0e771ab9863343dadde1072ae",
       "sourceName": "@openzeppelin/contracts/governance/Governor.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -606,12 +718,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -640,7 +759,7 @@
       "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -653,12 +772,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -675,7 +801,7 @@
       "contentHash": "ae135102abee8b2fc88eed09a40cdb4c",
       "sourceName": "@openzeppelin/contracts/utils/Timers.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -688,12 +814,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -710,7 +843,7 @@
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -723,12 +856,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -747,7 +887,7 @@
       "contentHash": "bbba587a6884548b6d49b792337c7e9d",
       "sourceName": "@openzeppelin/contracts/governance/IGovernor.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -760,12 +900,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -784,7 +931,7 @@
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -797,12 +944,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -819,7 +973,7 @@
       "contentHash": "9f8822b72fe2702979e40160cb6d9636",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -832,12 +986,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -856,7 +1017,7 @@
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -869,12 +1030,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -891,7 +1059,7 @@
       "contentHash": "d75bd1fe3635665c9468947aa4c13bd5",
       "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -904,12 +1072,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -930,7 +1105,7 @@
       "contentHash": "ae0d2ca4db5ef8ac47b0ee155483a0d7",
       "sourceName": "@openzeppelin/contracts/governance/TimelockController.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -943,12 +1118,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -970,7 +1152,7 @@
       "contentHash": "eebb17e144c4fd58549d815db19552da",
       "sourceName": "@openzeppelin/contracts/governance/extensions/IGovernorTimelock.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -983,12 +1165,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1007,7 +1196,7 @@
       "contentHash": "95a6c227d1b8843e9385518a5bce4853",
       "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1020,12 +1209,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1047,7 +1243,7 @@
       "contentHash": "57c84298234411cea19c7c284d86be8b",
       "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1060,12 +1256,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1078,11 +1281,11 @@
       ]
     },
     "/home/miguel/projects/safenet-dao/contracts/governance_standard/TimeLock.sol": {
-      "lastModificationDate": 1677600553177,
-      "contentHash": "48396be13b7bf24a3eb24fde90c53d3b",
+      "lastModificationDate": 1677613461715,
+      "contentHash": "ff33798dd1e6a5bb96f84b77c46d3dc8",
       "sourceName": "contracts/governance_standard/TimeLock.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1095,12 +1298,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1115,11 +1325,11 @@
       ]
     },
     "/home/miguel/projects/safenet-dao/contracts/governance_standard/GovernanceContract.sol": {
-      "lastModificationDate": 1677599669087,
-      "contentHash": "505297e5f12dd850c60d363321991090",
+      "lastModificationDate": 1677604354166,
+      "contentHash": "8d4360d717beb1596e45042744537375",
       "sourceName": "contracts/governance_standard/GovernanceContract.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1132,12 +1342,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1150,7 +1367,7 @@
         "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"
       ],
       "versionPragmas": [
-        "^0.8.9"
+        "^0.8.8"
       ],
       "artifacts": [
         "GovernanceContract"
@@ -1161,7 +1378,7 @@
       "contentHash": "2c6e87fa9b63c7ef8579eb4ae937d4c2",
       "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1174,12 +1391,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1198,7 +1422,7 @@
       "contentHash": "9d29fbf7536b618ba423373e26d690bc",
       "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1211,12 +1435,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1235,7 +1466,7 @@
       "contentHash": "d5ec18eb16b8452e749ee7d3aaa304b1",
       "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1248,12 +1479,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1273,7 +1511,7 @@
       "contentHash": "10d5401a4a099932299a62df22935a5e",
       "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1286,12 +1524,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1312,7 +1557,7 @@
       "contentHash": "a036d40989f21d08bb990e68d0088fa1",
       "sourceName": "@openzeppelin/contracts/governance/utils/IVotes.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1325,12 +1570,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1347,7 +1599,7 @@
       "contentHash": "13748ed5ead784338a59958916bc9edc",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1360,12 +1612,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1384,11 +1643,11 @@
       ]
     },
     "/home/miguel/projects/safenet-dao/contracts/GovernanceToken.sol": {
-      "lastModificationDate": 1677600542022,
-      "contentHash": "1e897769b0579b9087053ac0095fc8fd",
+      "lastModificationDate": 1677604654113,
+      "contentHash": "e70eb9132534e540d2e49140fcd81f0c",
       "sourceName": "contracts/GovernanceToken.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.8",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -1401,12 +1660,19 @@
                 "evm.bytecode",
                 "evm.deployedBytecode",
                 "evm.methodIdentifiers",
-                "metadata"
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
               ],
               "": [
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": true
           }
         }
       },
@@ -1417,7 +1683,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Governance"
+        "GovernanceToken"
       ]
     }
   }
