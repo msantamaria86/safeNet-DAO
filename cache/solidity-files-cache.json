@@ -1281,8 +1281,8 @@
       ]
     },
     "/home/miguel/projects/safenet-dao/contracts/governance_standard/TimeLock.sol": {
-      "lastModificationDate": 1677613461715,
-      "contentHash": "ff33798dd1e6a5bb96f84b77c46d3dc8",
+      "lastModificationDate": 1677616912669,
+      "contentHash": "ef94f65efbeb90e08c5c35852e6ef86e",
       "sourceName": "contracts/governance_standard/TimeLock.sol",
       "solcConfig": {
         "version": "0.8.8",
@@ -1322,55 +1322,6 @@
       ],
       "artifacts": [
         "TimeLock"
-      ]
-    },
-    "/home/miguel/projects/safenet-dao/contracts/governance_standard/GovernanceContract.sol": {
-      "lastModificationDate": 1677604354166,
-      "contentHash": "8d4360d717beb1596e45042744537375",
-      "sourceName": "contracts/governance_standard/GovernanceContract.sol",
-      "solcConfig": {
-        "version": "0.8.8",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/governance/Governor.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.8"
-      ],
-      "artifacts": [
-        "GovernanceContract"
       ]
     },
     "/home/miguel/projects/safenet-dao/node_modules/@openzeppelin/contracts/governance/extensions/GovernorSettings.sol": {
@@ -1684,6 +1635,55 @@
       ],
       "artifacts": [
         "GovernanceToken"
+      ]
+    },
+    "/home/miguel/projects/safenet-dao/contracts/governance_standard/GovernorContract.sol": {
+      "lastModificationDate": 1677614467468,
+      "contentHash": "bb795ab557b9efba961aef3be1ed38a9",
+      "sourceName": "contracts/governance_standard/GovernorContract.sol",
+      "solcConfig": {
+        "version": "0.8.8",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/governance/Governor.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.8"
+      ],
+      "artifacts": [
+        "GovernorContract"
       ]
     }
   }

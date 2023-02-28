@@ -9,7 +9,7 @@ const deployTimeLock: DeployFunction = async function (hre:HardhatRuntimeEnviron
 
   const timeLock = await deploy("TimeLock",{
     from: deployer,
-    args: [3600, [], [], '0x0000000000000000000000000000000000000000'],
+    args: [3600, [], [], deployer],
     log: true,
   })
   
