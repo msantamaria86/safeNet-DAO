@@ -1,8 +1,10 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { DeployFunction } from "hardhat-deploy/types";
+  //@ts-ignore
 import { ethers } from "hardhat";
 
 const setupContracts: DeployFunction = async function (hre:HardhatRuntimeEnvironment) {
+  //@ts-ignore
   const {getNamedAccounts, deployments} = hre;
   const {deploy, log, get} = deployments;
   const {deployer} = await getNamedAccounts();
@@ -13,10 +15,10 @@ const setupContracts: DeployFunction = async function (hre:HardhatRuntimeEnviron
   const proposerRole = await timeLock.PROPOSER_ROLE();
   const executorRole = await timeLock.EXECUTOR_ROLE();
   const adminRole = await timeLock.TIMELOCK_ADMIN_ROLE();
+  log('roles set')
 
   
   const proposerTx = await timeLock.grantRole(proposerRole, governor.address);
-  log('roles set')
   await proposerTx.wait(1);
   const executorTx = await timeLock.grantRole(executorRole, '0x0000000000000000000000000000000000000000')
   await executorTx.wait(1);

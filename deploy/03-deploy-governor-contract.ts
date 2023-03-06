@@ -4,20 +4,21 @@ import { DeployFunction } from "hardhat-deploy/types";
 const deployGovernorContract: DeployFunction = async function(
   hre: HardhatRuntimeEnvironment
 ) {
+  // @ts-ignore
   const {getNamedAccounts, deployments} = hre;
   const {deploy, log, get} = deployments;
   const {deployer} = await getNamedAccounts();
-  const governanceToken = await get("GovernanceToken");
   const timeLock = await get("TimeLock");
+  const governanceToken = await get("GovernanceToken");
   log("Deploying governor")
-  const governorContract = await deploy("GovernorContract", {
+  await deploy("GovernorContract", {
     from: deployer,
     args: [
       governanceToken.address,
       timeLock.address,
       1,
       5,
-      4
+      1
     ],
     log: true,
   })
