@@ -1,7 +1,7 @@
 import * as fs from "fs";
   //@ts-ignore
 import { network, ethers } from "hardhat";
-import { moveBlocks } from "../utils/move-blocks";
+import { moveBlocks } from "../src/utils/move-blocks";
 
 const index = 0;
 async function main(proposalIndex: number){

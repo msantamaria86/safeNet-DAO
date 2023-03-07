@@ -7,7 +7,6 @@ function AddressesList(){
   
   const addresses = useSelector(state => state.addresses)
   const proposals = useSelector(state => state.proposals)
-  console.log(proposals);
 
   const dispatch = useDispatch()
   

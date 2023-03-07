@@ -3,7 +3,7 @@ import {useDispatch} from 'react-redux';
 import {addProposal} from "../features/proposals/ProposalSlice"
 import { useNavigate } from 'react-router-dom';
 import {v4 as uuid} from 'uuid'; 
-
+// import { propose } from '../../scripts/propose.js';
 
 
 import React from 'react'
