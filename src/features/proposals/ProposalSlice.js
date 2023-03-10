@@ -1,7 +1,14 @@
 import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = [
-  
+  {
+    id: '1',
+    description: "description 1"
+  },
+  {
+    id: '2',
+    description: "description 2"
+  }
 ]
 
 export const proposalSlice = createSlice({
