@@ -40,8 +40,8 @@ root.render(
     <Provider store={store}>
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
-       {/* <App /> */}
        <ConnectButton/>
+       <App />
       </RainbowKitProvider>
     </WagmiConfig>
     </Provider>
